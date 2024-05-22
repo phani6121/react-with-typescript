@@ -37,6 +37,8 @@ const Index: React.FC = () => {
         fetchUserData(URL);
     }, []);
 
+    //
+
     if (loading) {
         return (
             <div>
