@@ -1,6 +1,4 @@
-import React, { useReducer, useEffect, useState } from 'react';
-import { Dispatch } from 'react';
-
+import React, { useReducer, useEffect, useState, Dispatch } from 'react';
 
 interface User {
     id: number;
